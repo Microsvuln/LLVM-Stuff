@@ -1,3 +1,13 @@
+/*
+
+	LLVM Lessons by @Microsvuln
+	https://twitter.com/microsvuln
+	
+	Look also :
+	http://llvm.org/docs/WritingAnLLVMPass.html
+
+*/
+
 #include "llvm/Pass.h"
 #include "llvm/IR/Function.h"
 #include "llvm/Support/raw_ostream.h"
