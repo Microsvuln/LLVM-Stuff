@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/hll.cc
+llvm/Pass.h
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/llvm/Pass.h
+llvm/IR/Function.h
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/llvm/IR/Function.h
+llvm/Support/raw_ostream.h
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/llvm/Support/raw_ostream.h
+llvm/IR/LegacyPassManager.h
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/llvm/IR/LegacyPassManager.h
+llvm/Transforms/IPO/PassManagerBuilder.h
+/home/vulndev/vulndev/llvm-ex/bbl-analyser1/llvm/llvm/lib/Transforms/Hello4/llvm/Transforms/IPO/PassManagerBuilder.h
+
